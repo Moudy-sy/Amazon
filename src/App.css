@@ -1,0 +1,244 @@
+/* Desktop */
+.bodyhome {
+  background: #EAEDED;
+}
+
+/* Header */
+.OK {
+  background-color: #131921 !important;
+  height: 60px;
+  position: relative;
+  top: 0;
+  margin-bottom: -65px;
+  min-width: 100%;
+}
+.Logo {
+  margin-left: -55px !important;
+}
+.carousel-control-prev {
+  left: 0;
+  margin-top: -350px;
+}
+.carousel-control-next {
+  margin-top: -350px;
+}
+.carousel-caption {
+  visibility: hidden;
+}
+.carousel-indicators {
+  visibility: hidden;
+}
+.Nav2 {
+  background-color: #222f3e !important;
+  height: 39px;
+  margin-top: -6px;
+  color: #fff !important;
+}
+.nav-link {
+  color: #fff !important;
+  font-size: 14px;
+  font-weight: bold;
+}
+.search {
+  border-radius: 5px;
+  border: 0px solid;
+  display: flex;
+  min-width: 700px;
+  max-height: 40px;
+  margin-top: 2px;
+  max-width: 590px;
+  right: 0;
+  margin-left: 15px;
+
+}
+.searchbtn {
+  border-radius: 0px 5px 5px 0px;
+  border: 0 solid;
+  width: fit-content;
+  margin-left: -50px;
+  background: #febd68;
+  width: 50px;
+  height: 38px;
+  margin-top: 2px;
+  position: static;
+  
+}
+.searchbtn2 {
+  border-radius: 5px 0px 0px 5px;
+  width: fit-content;
+  border-top: 0px;
+  border-right: 1px silver solid;
+  border-bottom: 0px;
+  border-left: 0px;
+  margin-right: -70px;
+  background: #f8f8f8;
+  position: relative;
+  font-size: 12px;
+  width: 50px;
+  height: 38px;
+  margin-top: 2px;
+  margin-right: -65px;
+
+}
+#basic-nav-dropdown2 {
+  color: #464747 !important;
+  font-size: 11px;
+  font-family: sans-serif;
+  margin-top: 3px;
+}
+.header-title {
+  max-height: 5px;
+  color: white;
+  font-weight: bolder;
+  margin-top: 5px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+p {
+  font-size: 11px;
+  color: silver;
+  position: absolute;
+  margin-top: 2px !important;
+}
+.Go {
+  margin-top: 15px !important;
+  font-size: 14px  !important;
+  
+}
+.Cart {
+  position: absolute;
+  margin-right: 26px;
+  cursor: pointer;
+  right: 0;
+}
+h6 {
+  color: orange;
+  font-weight: bolder;
+  right: 0;
+  position: absolute;
+  margin-right: 50px;
+}
+#basic-nav-dropdown {
+  font-size: 22px;
+  margin: auto;
+  margin-left: 15px;
+  right:0;
+}
+/* Body */
+.slider {
+  margin-bottom: -300px;
+  background: linear-gradient(
+-180deg,rgba(234,237,237,0),#eaeded);
+}
+/* Footer */
+.Back-to-top {
+  width: 100%;
+  background: #364759;
+  border: 0 solid;
+  height: 40px;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+}
+.footer {
+  height: 300px;
+  background: #232F3E;
+}
+/* Attention */
+/* Screen Sizes */
+/* Below Below */
+@media screen and (min-width: 1200px)  {
+  .search {
+    width: auto !important;
+  }
+}
+/* Tablet */
+@media screen and (max-width: 1200px) {
+  .slider {
+    margin-bottom: -150px;
+  }
+  .Nav2 {
+    visibility: hidden;
+    margin-top: -40px;
+  }
+  .Logo {
+    margin-left: 0px !important;
+  }
+  .nav-link {
+    color: #fff !important;
+    background-color: #131921;
+    width: 100%;
+  }
+  .navbar {
+    background: #131921 ;
+  }
+  .search {
+    border-radius: 5px;
+    border: 0px solid;
+    width: 80%;
+    display: flex;
+    min-width: 700px;
+    margin-left: -10px;
+    margin-top: 2px;
+  }
+  .searchbtn2 {
+    visibility: hidden;
+  }
+  .header-title {
+    visibility: hidden;
+  }
+  .Cart {
+    position: absolute;
+    cursor: pointer;
+    left: 0;
+  }
+  .carousel-control-prev {
+    left: 0;
+    margin-top: 0px;
+  }
+  .carousel-control-next {
+    margin-top: 0px;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 800px) {
+  .slider {
+    margin-bottom: 0px;
+  }
+  html {
+    min-width: 300px;
+  }
+  .Nav2 {
+    visibility: hidden;
+    margin-top: -40px;
+  }
+  .Logo {
+    margin-left: 0px !important;
+  }
+  .nav-link {
+    color: #fff !important;
+    background-color: #131921;
+    width: 100%;
+  }
+  .search {
+    border-radius: 5px;
+    border: 0px solid;
+    width: 100%;
+    display: flex;
+    min-width: 0px;
+  }
+  .searchbtn2 {
+    visibility: hidden;
+  }
+  .header-title {
+    visibility: hidden;
+  }
+  .carousel-control-prev {
+    left: 0;
+    margin-top: 0px;
+  }
+  .carousel-control-next {
+    margin-top: 0px;
+  }
+}
